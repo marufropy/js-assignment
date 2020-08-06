@@ -3,7 +3,7 @@ function woodCalculator(chair, table, bed){
         return "error! amount can not be negative or fraction."
     }
     else{
-        result = (chair*1) + (table*3) + (bed*5);
+        var result = (chair*1) + (table*3) + (bed*5);
         return result;    
     }
 }
